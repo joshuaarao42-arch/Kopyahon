@@ -1,6 +1,13 @@
 # KOPYAHON
 
-**Imong mga kopya, dili mawala.** *(Your copies won't be lost.)*
+<p align="center">
+  <img src="assets/logo.png" alt="KOPYAHON logo" width="180">
+</p>
+
+<p align="center">
+  <strong>Imong mga kopya, dili mawala.</strong><br>
+  <em>Your copies won't be lost.</em>
+</p>
 
 KOPYAHON is a private, local clipboard history manager for the desktop with a Cebuano-inspired identity. It quietly remembers the text you copy, lets you search, favorite and re-copy it, and keeps your reusable text snippets one click away. The name comes from the Cebuano word *kopya* - "a copy".
 
@@ -8,11 +15,19 @@ Everything stays on your computer in a local SQLite file. Nothing is sent over a
 
 ## Screenshots
 
-| | |
+The screenshot images referenced in the previous README were missing from the repository, which caused broken image previews. Add the actual application screenshots to `docs/screenshots/` using these filenames to display them here:
+
+| Dashboard | Clipboard History |
 |---|---|
 | ![Dashboard](docs/screenshots/01-DASHBOARD.png) | ![Clipboard History](docs/screenshots/02-HISTORY.png) |
+
+| Favorites | Text Snippets |
+|---|---|
 | ![Favorites](docs/screenshots/03-FAVORITES.png) | ![Text Snippets](docs/screenshots/04-SNIPPETS.png) |
-| ![Settings](docs/screenshots/05-SETTING.png) | ![About](docs/screenshots/06-ABOUT.png) |
+
+| Settings | About |
+|---|---|
+| ![Settings](docs/screenshots/05-SETTINGS.png) | ![About](docs/screenshots/06-ABOUT.png) |
 
 ## Features
 
@@ -36,7 +51,7 @@ Requires Python 3.9+ with Tk (included in the standard Windows and macOS install
 git clone <your-repo-url> kopyahon
 cd kopyahon
 python -m venv .venv
-.venv\Scripts\activate          # Windows   (macOS/Linux: source .venv/bin/activate)
+.venv\\Scripts\\activate          # Windows   (macOS/Linux: source .venv/bin/activate)
 pip install -r requirements.txt
 python main.py
 ```
@@ -49,7 +64,7 @@ python main.py
 4. Use **Pause monitoring** in the sidebar before copying passwords or other secrets.
 5. Save reusable text under **Snippets**.
 
-Data lives in `%APPDATA%\KOPYAHON` on Windows, `~/Library/Application Support/KOPYAHON` on macOS and `~/.local/share/kopyahon` on Linux (override with the `KOPYAHON_DATA_DIR` environment variable). **Settings → Open folder** takes you there.
+Data lives in `%APPDATA%\\KOPYAHON` on Windows, `~/Library/Application Support/KOPYAHON` on macOS and `~/.local/share/kopyahon` on Linux (override with the `KOPYAHON_DATA_DIR` environment variable). **Settings → Open folder** takes you there.
 
 ## Technology stack
 
@@ -70,7 +85,8 @@ kopyahon/
   utils.py                  paths, time and text helpers
   ui/                       sidebar, components, and one module per page
 assets/                     logo.png, icon.ico
-tests/                      unit tests (database, monitor)
+docs/screenshots/            README application screenshots
+tests/                       unit tests (database, monitor)
 ```
 
 ## Running the tests
@@ -87,6 +103,7 @@ The tests cover the database and the clipboard monitor (using a fake clipboard) 
 pip install pyinstaller
 pyinstaller --noconsole --name KOPYAHON --icon assets/icon.ico --add-data "assets;assets" --collect-data customtkinter main.py
 ```
+
 (On macOS/Linux use `:` instead of `;` in `--add-data`.)
 
 ## Credits
