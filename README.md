@@ -17,9 +17,9 @@ Everything stays on your computer in a local SQLite file. Nothing is sent over a
 
 | | |
 |---|---|
-| ![Dashboard](screenshots/01-DASHBOARD.png) | ![Clipboard History](screenshots/02-HISTORY.png) |
-| ![Favorites](screenshots/03-FAVORITES.png) | ![Text Snippets](screenshots/04-SNIPPETS.png) |
-| ![Settings](screenshots/05-SETTING.png) | ![About](screenshots/06-ABOUT.png) |
+| ![Dashboard](screenshots/01-daashboard.png) | ![Clipboard History](screenshots/history.png) |
+| ![Favorites](screenshots/03-ravorites.png) | ![Text Snippets](screenshots/04-snippets.png) |
+| ![Settings](screenshots/05-settings.png) | ![About](screenshots/06-about.png) |
 
 
 ## Features
