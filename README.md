@@ -15,19 +15,18 @@ Everything stays on your computer in a local SQLite file. Nothing is sent over a
 
 ## Screenshots
 
-The screenshot images referenced in the previous README were missing from the repository, which caused broken image previews. Add the actual application screenshots to `docs/screenshots/` using these filenames to display them here:
+The previous screenshot links pointed to image files that are not present in this repository. To avoid broken previews, the image embeds have been removed until the real application screenshots are added.
 
-| Dashboard | Clipboard History |
-|---|---|
-| ![Dashboard](docs/screenshots/01-DASHBOARD.png) | ![Clipboard History](docs/screenshots/02-HISTORY.png) |
+Place your screenshots in `docs/screenshots/` with these filenames:
 
-| Favorites | Text Snippets |
-|---|---|
-| ![Favorites](docs/screenshots/03-FAVORITES.png) | ![Text Snippets](docs/screenshots/04-SNIPPETS.png) |
+- `01-DASHBOARD.png`
+- `02-HISTORY.png`
+- `03-FAVORITES.png`
+- `04-SNIPPETS.png`
+- `05-SETTINGS.png`
+- `06-ABOUT.png`
 
-| Settings | About |
-|---|---|
-| ![Settings](docs/screenshots/05-SETTINGS.png) | ![About](docs/screenshots/06-ABOUT.png) |
+Once the images are uploaded with these exact names, they can be embedded in the table here.
 
 ## Features
 
