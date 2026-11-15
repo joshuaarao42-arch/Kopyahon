@@ -15,18 +15,12 @@ Everything stays on your computer in a local SQLite file. Nothing is sent over a
 
 ## Screenshots
 
-The previous screenshot links pointed to image files that are not present in this repository. To avoid broken previews, the image embeds have been removed until the real application screenshots are added.
+| | |
+|---|---|
+| ![Dashboard](screenshots/01-DASHBOARD.png) | ![Clipboard History](screenshots/02-HISTORY.png) |
+| ![Favorites](screenshots/03-FAVORITES.png) | ![Text Snippets](screenshots/04-SNIPPETS.png) |
+| ![Settings](screenshots/05-SETTING.png) | ![About](screenshots/06-ABOUT.png) |
 
-Place your screenshots in `docs/screenshots/` with these filenames:
-
-- `01-DASHBOARD.png`
-- `02-HISTORY.png`
-- `03-FAVORITES.png`
-- `04-SNIPPETS.png`
-- `05-SETTINGS.png`
-- `06-ABOUT.png`
-
-Once the images are uploaded with these exact names, they can be embedded in the table here.
 
 ## Features
 
