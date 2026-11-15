@@ -14,8 +14,6 @@ Everything stays on your computer in a local SQLite file. Nothing is sent over a
 | ![Favorites](docs/screenshots/03-FAVORITES.png) | ![Text Snippets](docs/screenshots/04-SNIPPETS.png) |
 | ![Settings](docs/screenshots/05-SETTING.png) | ![About](docs/screenshots/06-ABOUT.png) |
 
-> Placeholders: save your own screenshots in `docs/screenshots/` using the file names above.
-
 ## Features
 
 - **Automatic recording** of copied text in a background thread, with line breaks and original text preserved exactly.
